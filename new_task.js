@@ -3,6 +3,7 @@ var amqp = require("./amqp");
 let taskNumber = 0;
 var generateTask = () => {
   
+  
   let task = "";
   for (let i = 0; i < Math.random() * 10; i++) {
     task += ".";
